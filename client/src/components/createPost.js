@@ -3,6 +3,8 @@ const axios = require("axios").default;
 const CreatePost = () => {
   const titleRef = useRef();
   const descriptionRef = useRef();
+
+  //submit the post
   const submitForm = async (event) => {
     event.preventDefault();
 

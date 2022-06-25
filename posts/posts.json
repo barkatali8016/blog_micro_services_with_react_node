@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Publicis Sapient.",
+    "description": "Publicis Sapient is an American digital consulting company, founded as Sapient in Cambridge, Massachusetts in 1990 by Jerry Greenberg and J. Stuart Moore. On February 6, 2015, Sapient became a fully owned division of French advertising giant Publicis, in a deal valued at $3.7bn.",
+    "comments": [],
+    "id": 1,
+    "userId": 1
+  },
+  {
+    "title": "Tata Consultancy Services",
+    "description": "Tata Consultancy Services is an Indian multinational information technology services and consulting company with its headquarters in Mumbai. It is a part of the Tata Group and operates in 149 locations across 46 countries",
+    "comments": [],
+    "id": 2,
+    "userId": 1
+  },
+  {
+    "title": "Wipro",
+    "description": "Wipro Limited is an Indian multinational corporation that provides information technology, consulting and business process services. Delaporte has served as CEO and managing director of Wipro from July 2020. It is headquartered in Bangalore, Karnataka, India.",
+    "comments": [],
+    "id": 3,
+    "userId": 1
+  },
+  {
+    "title": "Accenture",
+    "description": "Accenture plc is an Irish-American, professional services company based in Dublin for tax purposes, specializing in information technology services and consulting. A Fortune Global 500 company, it reported revenues of $50.53 billion in 2021.",
+    "comments": [],
+    "id": 4,
+    "userId": 1
+  },
+  {
+    "title": "Cognizant",
+    "description": "Cognizant is an American multinational information technology services and consulting company. It is headquartered in Teaneck, New Jersey, United States. Cognizant is part of the NASDAQ-100 and trades under CTSH",
+    "comments": [],
+    "id": 5,
+    "userId": 1
+  },
+  {
+    "title": "Capgemini",
+    "description": "Capgemini SE is a French multinational information technology services and consulting company. It is headquartered in Paris, France.",
+    "comments": [],
+    "id": 6,
+    "userId": 1
+  }
+]

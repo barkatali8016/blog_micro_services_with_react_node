@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 const axios = require("axios").default;
-const CreatePost = () => {
+const CreatePost = (props) => {
   const titleRef = useRef();
   const descriptionRef = useRef();
 
@@ -9,20 +9,25 @@ const CreatePost = () => {
     event.preventDefault();
 
     console.log("Event", titleRef.current.value);
-    try {
-      const post = {
-        title: titleRef.current.value,
-        description: descriptionRef.current.value,
-      };
-      const response = await axios.post(
-        "http://localhost:3001/api/posts/add",
-        post
-      );
-      console.log(response);
-      titleRef.current.value = "";
-      descriptionRef.current.value = "";
-    } catch (error) {
-      console.log(error);
+    const post = {
+      title: titleRef.current.value,
+      description: descriptionRef.current.value,
+    };
+    if (post.title && post.description) {
+      try {
+        const response = await axios.post(
+          "http://localhost:3001/api/posts/add",
+          post
+        );
+        console.log(response);
+        titleRef.current.value = "";
+        descriptionRef.current.value = "";
+        props.getPosts();
+      } catch (error) {
+        console.log(error);
+      }
+    } else {
+      alert("Form is empty.");
     }
   };
   return (

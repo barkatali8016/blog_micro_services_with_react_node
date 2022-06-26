@@ -1,0 +1,25 @@
+.card-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.list-card {
+  width: calc(96% / 3);
+  cursor: pointer;
+}
+.card-img-top {
+  width: auto;
+  height: 180px;
+  padding: 1rem;
+}
+.ml-5 {
+  margin-left: 20px;
+}
+.custom-height {
+  height: 400px;
+}
+.comment-avatar img {
+  height: 3rem;
+  width: 3rem;
+}

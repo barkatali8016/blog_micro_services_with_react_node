@@ -21,6 +21,8 @@ exports.addPost = (req, res) => {
       description: req.body.description,
       comments: [],
       userId: 1,
+      defaultImgUrl:
+        "https://user-images.githubusercontent.com/43302778/106805462-7a908400-6645-11eb-958f-cd72b74a17b3.jpg",
     };
     POSTS.push(post);
     res.json({

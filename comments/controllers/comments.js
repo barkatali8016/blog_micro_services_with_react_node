@@ -27,8 +27,10 @@ exports.addComment = (req, res) => {
       postId: postId,
       userId: 1,
       id: uuidv4(),
+      avatar: "",
+      defaultAvatar: "http://cdn.onlinewebfonts.com/svg/img_264157.png",
     };
-    COMMENTS.push(comment);
+    COMMENTS.unshift(comment);
     return res.json({
       success: 1,
       msg: "Comment added successfully.",
